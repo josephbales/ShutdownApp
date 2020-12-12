@@ -75,6 +75,7 @@ namespace ShutdownApp
             this.Controls.Add(this.CancelButton);
             this.Name = "MainForm";
             this.Text = "ShutdownApp";
+            this.TopMost = true;
             this.ResumeLayout(false);
             this.PerformLayout();
 
